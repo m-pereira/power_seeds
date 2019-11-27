@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.com/m-pereira/power_seeds.svg?branch=master)](https://travis-ci.com/m-pereira/power_seeds)
+[![Maintainability](https://api.codeclimate.com/v1/badges/40f21a06a7b382e759d5/maintainability)](https://codeclimate.com/github/m-pereira/power_seeds/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/40f21a06a7b382e759d5/test_coverage)](https://codeclimate.com/github/m-pereira/power_seeds/test_coverage)
+
 # PowerSeeds
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/power_seeds`. To experiment with that code, run `bin/console` for an interactive prompt.
