@@ -1,4 +1,6 @@
-require "power_seeds/version"
+# frozen_string_literal: true
+
+require 'power_seeds/version'
 
 module PowerSeeds
   class Error < StandardError; end

@@ -1,0 +1,29 @@
+engines:
+  rubocop:
+    enabled: true
+    channel: rubocop-0-49
+  flog:
+    enabled: true
+  flay:
+    enabled: true
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc
+  duplication:
+    enabled: true
+    config:
+      languages:
+        ruby:
+          mass_threshold: 20
+        javascript:
+          mass_threshold: 50
+exclude_paths:
+  - "Gemfile.lock"
+  - "db/schema.rb"
+  - "db/migrate/*.rb"
+  - "spec/"
+  - "fixtures/"
+  - "doc/"
+  - "vendor/"
+  - "public/javascripts"
